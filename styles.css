@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.hover_link_elements {
+  background: white;
+  transition: 400ms ease;
+  color: #121212;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url("img/vialactea.jpg");
+  height: 100vh;
+}
+.container .header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  line-height: 80px;
+  padding: 0 100px;
+}
+.container .header .logo {
+  color: white;
+  font-weight: 700;
+  font-size: 26px;
+}
+.container .header .nav-bar {
+  display: flex;
+}
+.container .header .nav-bar .menu {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  list-style: none;
+}
+.container .header .nav-bar .menu li {
+  padding: 0 20px;
+}
+.container .header .nav-bar .menu li a {
+  text-decoration: none;
+  color: white;
+  padding: 0 20px;
+}
+.container .header .nav-bar .menu li a:hover {
+  background: white;
+  transition: 400ms ease;
+  color: #121212;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
